@@ -1,0 +1,309 @@
+body{
+    font-family: "Trip Sans VF","Trip Sans",Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* header */
+.header{
+    box-sizing: border-box;
+    padding: 0 100px 0 100px;
+    height: 70px;
+    background-color: white;
+    position: sticky;
+    top:0;
+    width: 100%;
+    z-index: 10;
+    
+}
+.nav{
+    display: flex;
+}
+.menu-1{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    height: 100%;
+}
+.menu a{
+    color: gray;
+    opacity: 1;
+    font-weight: 700;
+}
+.nav-bar{
+    justify-content:end;
+    margin-left: 20px;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+.gs-button{
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    background-color:  #0f766e;
+    height: 40px;
+    border: none;
+}
+/* career banner */
+.career{
+    justify-content: center;
+    display:grid;
+    text-align: center;
+    align-content: center;
+    box-sizing: border-box;
+    height: 500px;
+    width:100%
+}
+.career h1{
+    font-size: 48px;
+}
+.career a{
+    text-align: center;
+    width: 400px;
+    font-size: 18px;
+    color: gray;
+    font-weight: 400;
+}
+.vc-button{
+    margin-bottom: 80px;
+    margin-top: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px 20px 30px 20px;
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid lightgray;
+}
+.image-banner{
+    display: flex;
+    align-items: center;
+    height: 434px;
+    width: 100%;
+}
+.image-banner img{
+    height: 100%;
+    width: 100%;
+}
+.hiw{
+    text-align: center;
+    align-content: center;
+    box-sizing: border-box;
+    height: 700px;
+    width: 100%;
+}
+.hiw .hiw-p {
+    display: grid;
+    width: 100%;
+    justify-items: center;
+}
+.hiw .hiw-p p{
+    width: 900px;
+    font-size: 18px
+}
+.hiw-cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.hiw-card1{
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+}
+.hiw-card1-img{
+    align-items: center;
+    width: 300px;
+    height: 150px;
+}
+.hiw-card1-img img{
+    width: 100%;
+    height: 100%;
+}
+.hiw-card1 h3{
+    color: #4b5563;
+}
+.hiw-card1 p{
+    color: #4b5563;
+}
+.le{
+    padding-top: 40px;
+    background-color: #f3f4f6;
+    text-align: center;
+    align-content: center;
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+}
+.le h1{
+    margin-bottom: 60px;
+}
+.grid{
+    margin-bottom: 60px;
+    grid-gap: 40px;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+.grid-card1{
+    border-radius: 10px;
+    padding: 30px;
+    background-color: white;
+    width: auto;
+}
+.grid-card1 h3{
+    font-size: 20px;
+    color: #4b5563;
+    font-weight: 600;
+}
+.icon{
+    margin-bottom: 30px;
+    height: 150px;
+    width: 170px;
+}
+.icon img{
+    height: 100%;
+}
+.stories{
+    padding: 150px 150px 50px 150px;
+    padding-top: 50px;
+    padding-bottom: -20px;
+    background-color: white;
+    text-align: center;
+    align-content: center;
+    box-sizing: border-box;
+    height: 700px;
+    width: 100%;
+}
+.stories-arr{
+    padding-bottom: 20px;
+    background-color: white;
+    text-align: center;
+    align-content: center;
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+}
+.s-grid-card1{
+    border-radius: 10px;
+
+    background-color: white;
+    width: auto;
+}
+.card-1-arr{
+    display:flex;
+    width: autopx;
+}
+.card-1-icon img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-image: url("https://www.theodinproject.com/assets/success_stories/rob_pando-6f356379c151a50217e4e81a67f3c22bfba6a759264669aeabfd239701568f63.jpg");
+}
+.card-1-details{
+    margin-left: 30px;
+    text-align: left;
+}
+
+.card-1-details p{
+    color: #4b5563;
+    margin-top: 5px;
+    font-size: 18px;
+}
+.s-grid{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    grid-gap: 40px;
+    grid-template-columns: auto auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+.rd{
+    font-size: 18px;
+    color: #4b5563;
+}
+.support{
+    padding-bottom: 70px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.s-title{
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+.s-sub{
+    font-size: 13px;
+    color: #4b5563;
+    width: 400px;
+    text-align: center;
+}
+.buttons-arrangement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: auto;
+}
+.lm-button{
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px 20px 30px 20px;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid lightgray;
+}
+.dn-button{
+    margin-left: 30PX;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px 20px 30px 20px;
+    width: 150px;
+    height: 40px;
+    background-color:  #0f766e;
+    border: none;
+    color: white;
+}
+.footer-menu{
+    height: auto;
+    padding: 150px;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.sec-2 ul{
+    list-style-type: none;
+    
+}
+.sec-2 li{
+    margin-bottom: 15px;
+    color: #4b5563;
+    font-size: 14px;
+    
+}
+.sec-2 li:first-child{
+    font-weight:bold ;
+    font-size: 16px;
+    
+}
+.social-grid{
+    grid-gap: 20px;
+    display: grid;
+    grid-template-columns: 25px 25px 25px 25px;
+}
+.footer{
+    color: #4b5563;
+    font-size: 12px;
+}
